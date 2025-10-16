@@ -1,4 +1,4 @@
-# 🌐 Pront - Frontend da API Streamer & Propostas
+# 🌐 Front - Frontend da API Streamer & Propostas
 
 Este repositório contém o **frontend do sistema de divulgação de streamers**, desenvolvido em **React + TypeScript**, que se conecta à **API Admin**. O projeto está configurado para deploy **no Vercel**.
 
