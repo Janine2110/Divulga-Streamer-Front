@@ -38,6 +38,6 @@ O frontend consome dados da **API Streamer & Propostas**, hospedada separadament
 ├── index.css # Estilos globais
 └── vite-env.d.ts # Tipagens do Vite
 
-##📬 Contato
+## 📬 Contato
 Desenvolvido por Janine Veigas Farias e Miguel Rubim Vencato
 - E-mail: janinefarias2005@gmail.com
