@@ -14,7 +14,7 @@ O frontend consome dados da **API Streamer & Propostas**, hospedada separadament
 
 - **React 18 + TypeScript** – desenvolvimento do frontend  
 - **Vite** – bundler e servidor de desenvolvimento rápido  
-- **Tailwind - Estilos
+- **Tailwind** - Estilos
 - **Context API** – gerenciamento de estado  
 - **Vercel** – deploy do frontend  
 
