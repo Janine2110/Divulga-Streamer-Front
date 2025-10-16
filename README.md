@@ -1,6 +1,6 @@
 # 🌐 Front - Frontend da API Streamer & Propostas
 
-Este repositório contém o **frontend do sistema de divulgação de streamers**, desenvolvido em **React + TypeScript**, que se conecta à **API Admin**. 
+Este repositório contém o **frontend do sistema de divulgação de streamers**, desenvolvido em **React + TypeScript**, que se conecta à **Divulga Streamer**. 
 
 ---
 
