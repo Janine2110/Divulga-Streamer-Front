@@ -1,69 +1,43 @@
-# React + TypeScript + Vite
+# 🌐 Pront - Frontend da API Streamer & Propostas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o **frontend do sistema de divulgação de streamers**, desenvolvido em **React + TypeScript**, que se conecta à **API Admin**. O projeto está configurado para deploy **no Vercel**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Integração com a API
 
-## Expanding the ESLint configuration
+O frontend consome dados da **API Streamer & Propostas**, hospedada separadamente. Para funcionamento completo, é necessário que a API esteja rodando e acessível via URL.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🧰 Tecnologias utilizadas
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- **React 18 + TypeScript** – desenvolvimento do frontend  
+- **Vite** – bundler e servidor de desenvolvimento rápido  
+- **Tailwind - Estilos
+- **Context API** – gerenciamento de estado  
+- **Vercel** – deploy do frontend  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🗂 Estrutura do projeto
+├── assets/ # Imagens, ícones e recursos visuais
+├── components/ # Componentes React reutilizáveis
+├── context/ # Contextos para gerenciamento de estado
+├── utils/ # Funções utilitárias
+├── src/
+│ ├── App.tsx # Componente principal
+│ ├── CadPatrocinador.tsx
+│ ├── Detalhes.tsx
+│ ├── Layout.tsx
+│ ├── Login.tsx
+│ ├── MinhasPropostas.tsx
+│ ├── MinhasPropostas.css
+│ └── main.tsx # Ponto de entrada do Vite
+├── index.html # HTML principal
+├── index.css # Estilos globais
+└── vite-env.d.ts # Tipagens do Vite
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+##📬 Contato
+Desenvolvido por Janine Veigas Farias e Miguel Rubim Vencato
+- E-mail: janinefarias2005@gmail.com
